@@ -1,0 +1,32 @@
+html{
+	SCROLLBAR-FACE-COLOR: #fff; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #fff;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-arrow-color:#CCCCCC;
+	scrollbar-track-color:#fff; 
+	SCROLLBAR-darkSHADOW-COLOR: #fff;
+}
+body{
+	overflow:hidden;
+}
+.box{
+	margin-left:30px;
+	padding:4px;
+	border:1px solid #ccc;
+	width:600px;
+	height:400px;
+	overflow:auto;
+}
+p{
+	text-align:justify;
+	font:16px;
+	text-indent:30px;
+	letter-spacing:2px;
+	line-height:1.5;
+}
+h3{
+	text-align:center;
+}
+h2{
+	color:#711515;
+}

@@ -1,0 +1,62 @@
+body {
+	font: .8em/1.8em verdana, arial, sans-serif;
+	background-color: #FFFFFF;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#content {
+	border: 1px solid #711515;
+	border-top: none;
+	padding: 10px 5px 6px 5px;
+	width:792px;
+	height:500px;
+	overflow:auto;
+	scrollbar-face-color:#478153;
+}
+#content h1 {
+	font-size: 1.2em;
+	color: #711515;
+	background-color: transparent;
+}
+ul#tabnav {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 40px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #711515;
+	font: bold 11px verdana, arial, sans-serif;
+}
+ul#tabnav li {
+	float: left;
+	height: 21px;
+	background-color: #B51032;
+	color: #FFFFFF;
+	margin: 2px 2px 0 2px;
+	border: 1px solid #711515;
+}
+ul#tabnav a:link, ul#tabnav a:visited {
+	display: block;
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 4px;
+}
+ul#tabnav a:hover {
+	background-color: #F4869C;
+	color: #FFFFFF;
+}
+body#plant_manage li.plant_manage, 
+body#gather li.gather, 
+body#classify li.classify, 
+body#pack li.pack {
+	border-bottom: 1px solid #fff;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+body#plant_manage li.plant_manage a:link, body#plant_manage li.plant_manage a:visited,
+body#gather li.gather a:link, body#gather li.gather a:visited,
+body#classify li.classify a:link, body#classify li.classify a:visited,
+body#pack li.pack a:link, body#pack li.pack a:visited {
+	color: #000000;
+	background-color: #FFFFFF;
+}

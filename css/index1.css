@@ -1,0 +1,13 @@
+body{
+	background-color:#EAFBBC;
+}
+.container{
+	margin-left:5%;
+	width:900px;
+	height:570px;
+	border:1px solid #cccccc;
+}
+.head{
+	border-bottom:1px solid #ccc;
+	height:200px;
+}

@@ -1,0 +1,66 @@
+body {
+	font: .8em/1.8em verdana, arial, sans-serif;
+	background-color: #FFFFFF;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#content {
+	border: 1px solid #711515;
+	border-top: none;
+	padding: 10px 5px 6px 5px;
+	width:792px;
+	height:500px;
+	overflow:auto;
+	scrollbar-face-color:#478153;
+}
+#content h1 {
+	font-size: 1.2em;
+	color: #711515;
+	background-color: transparent;
+}
+ul#tabnav {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 40px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #711515;
+	font: bold 11px verdana, arial, sans-serif;
+}
+ul#tabnav li {
+	float: left;
+	height: 21px;
+	background-color: #B51032;
+	color: #FFFFFF;
+	margin: 2px 2px 0 2px;
+	border: 1px solid #711515;
+}
+ul#tabnav a:link, ul#tabnav a:visited {
+	display: block;
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 4px;
+}
+ul#tabnav a:hover {
+	background-color: #F4869C;
+	color: #FFFFFF;
+}
+body#affect_environment li.affect_environment, 
+body#type_structure li.type_structure, 
+body#contrul_light li.contrul_light, 
+body#contrul_temperature li.contrul_temperature,
+body#contrul_humidity li.contrul_humidity,
+body#ventilate li.ventilate {
+	border-bottom: 1px solid #fff;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+body#affect_environment li.affect_environment a:link, body#affect_environment li.affect_environment a:visited,
+body#type_structure li.type_structure a:link, body#type_structure li.type_structure a:visited,
+body#contrul_light li.contrul_light a:link, body#contrul_light li.contrul_light a:visited,
+body#contrul_temperature li.contrul_temperature a:link, body#contrul_temperature li.contrul_temperature a:visited,
+body#contrul_humidity li.contrul_humidity a:link,body#contrul_humidity li.contrul_humidity a:visited,
+body#ventilate li.ventilate a:link, body#ventilate li.ventilate a:visited {
+	color: #000000;
+	background-color: #FFFFFF;
+}

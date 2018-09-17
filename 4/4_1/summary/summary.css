@@ -1,0 +1,84 @@
+html{
+	SCROLLBAR-FACE-COLOR: #fff; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #fff;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-arrow-color:#CCCCCC;
+	scrollbar-track-color:#fff; 
+	SCROLLBAR-darkSHADOW-COLOR: #fff;
+}
+body {
+	font-size:14px;
+	background-color: #FFFFFF;
+	margin-left: 30px;
+	margin-right:23px;
+}
+p{
+	text-align:justify;
+	font-size:14px;
+	text-indent:30px;
+	letter-spacing:2px;
+	line-height:2;
+}
+#content {
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	padding: 10px 5px 6px 5px;
+	width:650px;
+	height:375px;
+	overflow:auto;
+}
+#content h1 {
+	font-size: 1.2em;
+	color: #711515;
+	background-color: transparent;
+}
+ul#tabnav {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 15px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #CCCCCC;
+	font: bold 12px verdana, arial, sans-serif;
+}
+ul#tabnav li {
+	float: left;
+	height: 21px;
+	background-color: #cc66cc;
+	color: #cc66cc;
+	margin: 2px 4px 0 2px;
+	border: 1px solid #CCCCCC;
+}
+ul#tabnav a:link, ul#tabnav a:visited {
+	display: block;
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 4px;
+}
+ul#tabnav a:hover {
+	background-color: #F4869C;
+	color: #FFFFFF;
+}
+
+
+body#preface li.preface, 
+body#type li.type,
+body#quality li.quality, 
+body#temperature li.temperature,
+body#light li.light,
+body#humidity li.humidity,
+body#air li.air {
+	border-bottom: 1px solid #fff;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+body#preface li.preface a:link, body#preface li.preface a:visited,
+body#type li.type a:link, body#type li.type a:visited,
+body#quality li.quality a:link, body#quality li.quality a:visited,
+body#temperature li.temperature a:link, body#temperature li.temperature a:visited , 
+body#light li.light a:link,body#light li.light a:visited,
+body#humidity li.humidity a:link,body#humidity li.humidity a:visited,
+body#air li.air a:link,body#air li.air a:visited{
+	color: #000000;
+	background-color: #FFFFFF;
+}

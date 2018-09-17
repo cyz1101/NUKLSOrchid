@@ -1,0 +1,77 @@
+html{
+	SCROLLBAR-FACE-COLOR: #fff; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #fff;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-arrow-color:#CCCCCC;
+	scrollbar-track-color:#fff; 
+	SCROLLBAR-darkSHADOW-COLOR: #fff;
+}
+body {
+	background-color: #FFFFFF;
+	margin-left: 30px;
+	margin-right:23px;
+}
+p{
+	font:14px;
+	line-height:1.5;
+	text-indent:30px;
+	text-align:justify;
+	letter-spacing:2px;
+}
+h2{
+	color:#711515;
+	margin-top:0px;
+	margin-bottom:2px;
+}
+#content {
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	padding: 10px 5px 6px 5px;
+	width:650px;
+	height:375px;
+	overflow:auto;
+}
+#content h1 {
+	font-size: 1.2em;
+	color: #000;
+	background-color: transparent;
+}
+ul#tabnav {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 40px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #CCCCCC;
+	font: bold 11px verdana, arial, sans-serif;
+}
+ul#tabnav li {
+	float: left;
+	height: 21px;
+	background-color: #cc66cc;
+	color: #cc66cc;
+	margin: 2px 2px 0 2px;
+	border: 1px solid #CCCCCC;
+}
+ul#tabnav a:link, ul#tabnav a:visited {
+	display: block;
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 4px;
+}
+ul#tabnav a:hover {
+	background-color: #F4869C;
+	color: #FFFFFF;
+}
+
+body#c1 li.c1, 
+body#c2 li.c2{
+	border-bottom: 1px solid #fff;
+	color: #cc66cc;
+	background-color: #FFFFFF;
+}
+body#c1 li.c1 a:link, body#c1 li.c1 a:visited,
+body#c2 li.c2 a:link, body#c2 li.c2 a:visited{
+	color: #cc66cc;
+	background-color: #FFFFFF;
+}
